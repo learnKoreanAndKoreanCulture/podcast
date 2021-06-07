@@ -14,10 +14,8 @@ class Ep2 extends React.Component{
     render(){
         return(
             <div className="longerPage container-fluid">
-                <button className="ep-button"><Link to="/Episodes">Episodes</Link></button>
-                <span className="between-buttons">•</span>
-                <button className="home-button"><Link to="/">Home</Link></button>
-                
+                <span class="topButtons"><button className="eButton"><Link to="/Episodes">Episodes</Link></button><button className="hButton"><Link to="/">Home</Link></button></span>
+
                 {/*Titles*/}
                 <div className="row">
                     <div className="title-wrapper col-12">
@@ -46,7 +44,9 @@ class Ep2 extends React.Component{
 시원하다 (shi one ha da) - refreshing<br></br>
 <br></br>
 장독 (jang dok) - traditional Korean pot to store Kimchi in (pictured below)<br></br>
-<img className="epPic" src="https://lh3.googleusercontent.com/proxy/LiIv0_zTAZM-OYwkq-DViIPZRwIT5mtp_ib65s2LutEf5JWFUXfAHHyjObOn_QwidbqbVr7odh-BVOEsOIepFJMpiOIns4de6Y2C3amv6B7cQjBwURo"></img><br></br>
+
+<img className="epPic" src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Jangdokdae_Gyeongbokgung.JPG"></img><br></br>
+
 묻다 (mut da) - bury<br></br>
 온도 (on do) - temperature<br></br>
 일정 (il jung) - constant<br></br>
